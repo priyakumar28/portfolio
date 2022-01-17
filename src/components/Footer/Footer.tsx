@@ -38,13 +38,13 @@ export function Footer() {
           <img src={githubIcon} alt="GitHub" />
         </a>
 
-        <a
+        {/* <a
           href="https://www.instagram.com/_thani_oruvan/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={instagramIcon} alt="Instagram" />
-        </a>
+        </a> */}
 
        
       </div>
