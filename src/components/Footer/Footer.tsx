@@ -3,8 +3,6 @@ import { Container } from "./styles";
 import reactIcon from "../../assets/react-icon.svg";
 import linkedinIcon from "../../assets/linkedin.png";
 import githubIcon from "../../assets/github.png";
-import instagramIcon from "../../assets/instagram.png";
-
 
 export function Footer() {
   return (
@@ -15,7 +13,7 @@ export function Footer() {
       </a>
       <div>
         <p>
-          © Made with  by <img src={reactIcon} alt="React" />
+          © Made with by <img src={reactIcon} alt="React" />
           Gopinath Manohar
           <span>❤️</span>
         </p>
@@ -37,16 +35,6 @@ export function Footer() {
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
-
-        <a
-          href="https://www.instagram.com/_thani_oruvan/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={instagramIcon} alt="Instagram" />
-        </a>
-
-       
       </div>
     </Container>
   );

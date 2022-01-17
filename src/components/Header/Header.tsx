@@ -16,7 +16,7 @@ export function Header() {
     setActive(false);
   }
   const cv =
-    "https://drive.google.com/file/d/1FbYub5a-knpwVsfBTp2S5XqeR5wrqvE8/view?usp=sharing";
+    "https://drive.google.com/file/d/1BdRwZ-hemqh6ogyE5V1cxLGtauasgJeB/view?usp=sharing";
 
   return (
     <Container className="header-fixed">
