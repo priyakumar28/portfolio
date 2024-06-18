@@ -11,7 +11,7 @@ export function Hero() {
           <p>Hello 👋, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1>Gopinath Manohar</h1>
+          <h1>Haripriya MP</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>Full stack developer</h3>

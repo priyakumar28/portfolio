@@ -1,6 +1,6 @@
 import { Container } from "./styles";
 
-import profileImage from "../../assets/man.png";
+import profileImage from "../../assets/prof.png";
 import cssIcon from "../../assets/css-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
@@ -11,7 +11,7 @@ import vsCode from "../../assets/vscode-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import gitHub from "../../assets/github-icon.svg";
 import mongo from "../../assets/icons8-mongodb.svg";
-
+import mui from "../../assets/mui.png"
 export function About() {
   return (
     <Container id="sobre">
@@ -58,11 +58,11 @@ export function About() {
             </ScrollAnimation>
           </div>
 
-          <div className="hability">
+          {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
               <img src={vsCode} alt="Vue" />
             </ScrollAnimation>
-          </div>
+          </div> */}
 
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.3 * 1000}>
@@ -87,11 +87,11 @@ export function About() {
             </ScrollAnimation>
           </div>
 
-          <div className="hability">
+          {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
               <img src={bootStrao} alt="Typescript" />
             </ScrollAnimation>
-          </div>
+          </div> */}
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
               <img src={gitHub} alt="Node" />
@@ -102,6 +102,11 @@ export function About() {
               <img src={mongo} alt="Node" />
             </ScrollAnimation>
           </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
+              <img src={mui} alt="MUI" />
+            </ScrollAnimation>
+          </div>
         </div>
       </div>
       <div className="about-image">
@@ -109,6 +114,7 @@ export function About() {
           <img src={profileImage} alt="profile pic" />
         </ScrollAnimation>
       </div>
+      
     </Container>
   );
 }

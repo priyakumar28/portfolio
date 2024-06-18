@@ -8,20 +8,20 @@ export function Footer() {
   return (
     <Container className="footer">
       <a href="/" className="logo">
-        <span>G</span>
-        <span>opinath.M</span>
+        <span>H</span>
+        <span>aripriya MP</span>
       </a>
       <div>
         <p>
           © Made with by <img src={reactIcon} alt="React" />
-          Gopinath Manohar
+          Haripriya 
           <span>❤️</span>
         </p>
       </div>
 
       <div className="social-media">
         <a
-          href="https://www.linkedin.com/in/gopimano1996/"
+          href="https://www.linkedin.com/in/haripriya-premkumar-3384791b8/"
           target="_blank"
           rel="noreferrer"
         >
@@ -29,7 +29,7 @@ export function Footer() {
         </a>
 
         <a
-          href="https://github.com/GopinathMano"
+          href="https://github.com/priyakumar28"
           target="_blank"
           rel="noreferrer"
         >

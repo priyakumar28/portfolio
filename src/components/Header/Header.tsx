@@ -22,8 +22,8 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
-          <span>Gopinath</span>
-          <span>M</span>
+          <span>Haripriya </span>
+          <span>MP</span>
         </HashLink>
 
         <input
@@ -48,9 +48,9 @@ export function Header() {
           <NavHashLink smooth to="#contato" onClick={closeMenu}>
             Contact
           </NavHashLink>
-          <a href={cv} target="_blank" rel="noreferrer" className="button">
+          {/* <a href={cv} target="_blank" rel="noreferrer" className="button">
             Resume
-          </a>
+          </a> */}
         </nav>
 
         <div
